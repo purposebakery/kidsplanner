@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Kidsplanner</string>
-    <string name="message">Watch face tapped</string>
     <string name="my_digital_name">Kidsplanner</string>
+
+    <string name="generic_empty">Empty</string>
+
+
+
+    <string name="settings_color">Main Color</string>
+    <string name="settings_routines">Routines</string>
+    <string name="settings_info">About</string>
+
+    <string name="settings_routines_empty_message">Add a routine by pressing the + icon above.</string>
+
 </resources>

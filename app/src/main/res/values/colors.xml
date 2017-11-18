@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#000000</color>
-    <color name="digital_text">#ffffff</color>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/red</color>
+
+    <color name="background">#232E33</color>
+
+
+    <color name="theme_blue_grey_background">#232E33</color>
+    <color name="theme_blue_grey_active">#6F96A5</color>
+    <color name="theme_blue_grey_dark">#445B65</color>
 
     <color name="white">#ffffff</color>
+    <color name="grey">#9E9E9E</color>
     <color name="black">#000000</color>
+
+    <color name="red">#B71C1C</color>
+
+
 </resources>

@@ -6,8 +6,8 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
 import android.support.v4.content.ContextCompat
+import com.purposebakery.kidsplanner.R
 import com.purposebakery.kidsplanner.generic.GenericPainter
-import com.techlung.kidswrist.R
 
 class BackgroundPainter : GenericPainter {
 

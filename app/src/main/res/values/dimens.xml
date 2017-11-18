@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="face_numbers_large_size">14sp</dimen>
-    <dimen name="face_numbers_normal_size">10sp</dimen>
+    <dimen name="face_numbers_large_size">13sp</dimen>
+    <dimen name="face_numbers_normal_size">8sp</dimen>
 
+    <dimen name="primary_action_top_space">64dp</dimen>
+    <dimen name="primary_action_circle_size">36dp</dimen>
+    <dimen name="primary_action_icon_size">24dp</dimen>
+
+    <dimen name="icon_normal">24dp</dimen>
+
+    <dimen name="space_normal">8dp</dimen>
 
 </resources>

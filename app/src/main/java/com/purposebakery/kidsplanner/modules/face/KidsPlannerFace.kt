@@ -1,4 +1,4 @@
-package com.purposebakery.kidsplanner
+package com.purposebakery.kidsplanner.modules.face
 
 import android.graphics.Canvas
 import android.graphics.Rect
@@ -6,8 +6,6 @@ import android.support.wearable.watchface.WatchFaceService
 import android.view.WindowInsets
 import com.techlung.wearfaceutils.WearFaceUtils
 import com.purposebakery.kidsplanner.generic.BaseWatchFaceService
-import com.purposebakery.kidsplanner.modules.face.BackgroundPainter
-import com.purposebakery.kidsplanner.modules.face.ClockworkPainter
 
 class KidsPlannerFace : BaseWatchFaceService() {
 
