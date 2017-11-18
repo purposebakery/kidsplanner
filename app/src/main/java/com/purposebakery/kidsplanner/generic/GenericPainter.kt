@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.generic
+package com.purposebakery.kidsplanner.generic
 
 interface GenericPainter {
 

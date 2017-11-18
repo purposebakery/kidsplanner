@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.utils
+package com.purposebakery.kidsplanner.utils
 
 object CircleUtil {
 

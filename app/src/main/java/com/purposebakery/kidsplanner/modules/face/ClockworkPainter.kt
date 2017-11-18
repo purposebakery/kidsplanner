@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.modules.face
+package com.purposebakery.kidsplanner.modules.face
 
 import android.content.Context
 import android.graphics.Canvas
@@ -9,12 +9,12 @@ import android.support.v4.content.ContextCompat
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.LinearInterpolator
-import com.purposebakery.kidswrist.R
 import com.techlung.wearfaceutils.WearFaceUtils
-import com.purposebakery.kidswrist.animation.DrawAnimation
-import com.purposebakery.kidswrist.generic.GenericPainter
-import com.purposebakery.kidswrist.utils.CircleUtil
-import com.purposebakery.kidswrist.utils.UiUtils
+import com.purposebakery.kidsplanner.animation.DrawAnimation
+import com.purposebakery.kidsplanner.generic.GenericPainter
+import com.purposebakery.kidsplanner.utils.CircleUtil
+import com.purposebakery.kidsplanner.utils.UiUtils
+import com.techlung.kidswrist.R
 
 class ClockworkPainter : GenericPainter {
     val NUMBER_MARGIN_DP = 14

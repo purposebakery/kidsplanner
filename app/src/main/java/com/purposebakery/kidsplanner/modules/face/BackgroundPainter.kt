@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.modules.face
+package com.purposebakery.kidsplanner.modules.face
 
 import android.content.Context
 import android.graphics.Canvas
@@ -6,8 +6,8 @@ import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
 import android.support.v4.content.ContextCompat
-import com.purposebakery.kidswrist.R
-import com.purposebakery.kidswrist.generic.GenericPainter
+import com.purposebakery.kidsplanner.generic.GenericPainter
+import com.techlung.kidswrist.R
 
 class BackgroundPainter : GenericPainter {
 

@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.generic
+package com.purposebakery.kidsplanner.generic
 
 import android.content.BroadcastReceiver
 import android.content.Context

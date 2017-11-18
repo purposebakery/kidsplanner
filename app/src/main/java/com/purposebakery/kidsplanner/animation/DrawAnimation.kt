@@ -1,4 +1,4 @@
-package com.purposebakery.kidswrist.animation
+package com.purposebakery.kidsplanner.animation
 
 import android.view.animation.Interpolator
 
