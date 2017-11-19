@@ -9,18 +9,19 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import com.purposebakery.kidsplanner.R
+import com.purposebakery.kidsplanner.generic.BaseActivity
 import com.purposebakery.kidsplanner.utils.inflate
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.settings_list_item.*
 
 
-class SettingsActivity : AppCompatActivity() {
+class SettingsActivity : BaseActivity() {
 
     enum class Setting {COLORS, ROUTINES, INFO}
     data class SettingElement(var setting : Setting, var title : Int, var image : Int)
 
     var list : WearableRecyclerView? = null
-    var adapter : SettingsAdapter? = null
+    var adapter : Adapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -36,13 +37,12 @@ class SettingsActivity : AppCompatActivity() {
                 SettingElement(Setting.INFO, R.string.settings_info, R.drawable.ic_info_white_24dp)
         )
 
-        adapter = SettingsAdapter(items, listener = { settingElement -> Log.d("test", settingElement.setting.name) })
+        adapter = Adapter(items, listener = { settingElement -> Log.d("test", settingElement.setting.name) })
         list?.adapter = adapter
-
     }
 
 
-    class SettingsAdapter(val items: List<SettingElement>, val listener: (SettingElement) -> Unit) : RecyclerView.Adapter<SettingsAdapter.ViewHolder>() {
+    class Adapter(val items: List<SettingElement>, val listener: (SettingElement) -> Unit) : RecyclerView.Adapter<Adapter.ViewHolder>() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = ViewHolder(parent.inflate(R.layout.settings_list_item))
 
